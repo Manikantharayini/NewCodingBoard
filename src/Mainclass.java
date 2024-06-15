@@ -1,4 +1,4 @@
-public class Testcase {
+public class Mainclass {
 
     public static int removeDuplicateElements(int arr[], int n){
         if (n==0 || n==1){
@@ -18,7 +18,7 @@ public class Testcase {
         }
         return j;
     }
-//this is program
+
     public static void main (String[] args) {
         int arr[] = {10,20,20,30,30,40,50,50};
         int length = arr.length;
